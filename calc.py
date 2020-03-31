@@ -12,5 +12,5 @@ def devide(x, y)        :
     pass
 
 def square(x):
-    pass
+    return x**2
 
