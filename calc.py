@@ -8,8 +8,15 @@ def substract(x, y):
 def multiply(x, y):
     return x*y
 
-def devide(x, y)        :
-    pass
+def divide(x, y)        :
+    try:
+      z = x/y
+    except ZeroDivisionError as e:
+      print(e)
+    else:
+      z = 0
+    
+    return z
 
 def square(x):
     pass
